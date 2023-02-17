@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #323232;
+    border: none;
+}
+
+body{
+    background-image: url(../img/facb0af9b5dd674dfe906dfcbfc753c9.jpg);
+    background-size: cover;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+a{
+    font-size: .8rem;
+}
+
+a:hover{
+    color: #272100;
+}
+
+#login-container{
+    background-color: rgb(206, 206, 206);
+    width: 600px;
+    margin-left: 650px;
+    margin-right: 650px;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    border-bottom: 2px solid #323232;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border-bottom: 2px solid #726100;
+}
+
+#esqueceu-senha{
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 45px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #726100;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+background-color: #272100;
+transition: .5s;
+}
+
+#social-container{
+    margin-bottom: 20px;
+}
+
+#social-container i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+
+#cadastro-container p{
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(206, 206, 206) ;
+    margin-top: 192px;
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.foto{
+    margin-left: 7rem;
+    margin-top: 15rem;
+}
