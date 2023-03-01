@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function criarCarro(marca, modelo, ano) {
+            return {
+                marca: marca,
+                modelo: modelo,
+                ano: ano,
+                acelerar: function () {
+                    console.log("O " + this.modelo + " está acelerando!");
+                },
+                frear: function () {
+                    console.log("O " + this.modelo + " está freando!");
+                }
+            };
+        }
+
+        const carro1 = criarCarro("Ford", "Mustang", 2022);
+        carro1.acelerar();
+        
+        const carro2 = criarCarro("Chevrolet", "Camaro", 2022);
+        carro2.frear();
+    </script>
+</body>
+</html>
